@@ -1,4 +1,4 @@
-# Music Tracker
+# Track.ly - Music Tracker
 
 A REST API for music tracking integrated with Last.fm, featuring JWT authentication and an HTML/CSS/TypeScript frontend.
 
