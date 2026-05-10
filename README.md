@@ -75,7 +75,7 @@ LASTFM_API_KEY=
 
 ### Portuguese Description
 
-# Music Tracker
+# Track.ly - Rastreador de música.
 
 API REST para rastreamento de músicas integrada ao Last.fm, com autenticação JWT e frontend em HTML/CSS/TypeScript.
 
