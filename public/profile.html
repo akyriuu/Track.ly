@@ -1,0 +1,52 @@
+html<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfil — Music Tracker</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <a href="dashboard.html" class="logo">Music Tracker</a>
+      <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <button id="btn-logout" class="btn-small">Sair</button>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="section">
+        <h2>Perfil</h2>
+        <div class="profile-card">
+          <div id="user-avatar" class="avatar avatar-large"></div>
+          <div class="profile-info">
+            <span class="profile-username" id="profile-username"></span>
+            <span class="profile-date" id="profile-date"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Configurações</h2>
+        <div class="card" style="max-width: 100%">
+          <div class="form-group">
+            <label for="lastfm-username">Usuário do Last.fm</label>
+            <input
+              type="text"
+              id="lastfm-username"
+              placeholder="seu usuário no Last.fm"
+            />
+          </div>
+          <button id="btn-save">Salvar</button>
+          <p class="error" id="error-msg" style="display: none"></p>
+          <p class="success" id="success-msg" style="display: none">
+            Salvo com sucesso!
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="js/profile.js"></script>
+  </body>
+</html>

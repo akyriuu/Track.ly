@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard — Music Tracker</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <span class="logo">Track.ly</span>
+      <div id="user-avatar" class="avatar"></div>
+      <nav>
+        <a href="profile.html">Perfil</a>
+        <button id="btn-logout" class="btn-small">Sair</button>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="section" id="now-playing">
+        <h2>Tocando agora</h2>
+        <div class="now-playing-card" id="now-playing-content">
+          <p class="loading">Carregando...</p>
+        </div>
+      </section>
+
+      <section class="section" id="stats">
+        <h2>Suas estatísticas</h2>
+
+        <div class="stats-grid">
+          <div class="stat-card" id="top-artists">
+            <h3>Top Artistas</h3>
+            <ul id="artists-list">
+              <li class="loading">Carregando...</li>
+            </ul>
+          </div>
+
+          <div class="stat-card" id="top-tracks">
+            <h3>Top Músicas</h3>
+            <ul id="tracks-list">
+              <li class="loading">Carregando...</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="js/dashboard.js"></script>
+  </body>
+</html>
