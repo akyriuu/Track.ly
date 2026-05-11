@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import Fastify from "fastify";
 import jwt from "@fastify/jwt";
 import cors from "@fastify/cors";
@@ -43,7 +42,6 @@ const start = async (): Promise<void> => {
 };
 
 start();
-=======
 import Fastify from "fastify";
 import jwt from "@fastify/jwt";
 import cors from "@fastify/cors";
@@ -88,4 +86,3 @@ const start = async (): Promise<void> => {
 };
 
 start();
->>>>>>> 10c3f90 (fix: rebuild dist with correct prisma client)

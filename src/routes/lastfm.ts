@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { FastifyInstance } from "fastify";
 import { authenticate } from "../plugins/authenticate";
 import { getNowPlaying, getUserInfo } from "../services/lastfm";
@@ -41,7 +40,6 @@ export async function lastfmRoutes(app: FastifyInstance): Promise<void> {
     },
   );
 }
-=======
 import { FastifyInstance } from "fastify";
 import { authenticate } from "../plugins/authenticate";
 import { getNowPlaying, getUserInfo } from "../services/lastfm";
@@ -84,4 +82,3 @@ export async function lastfmRoutes(app: FastifyInstance): Promise<void> {
     },
   );
 }
->>>>>>> 10c3f90 (fix: rebuild dist with correct prisma client)
