@@ -8,6 +8,9 @@ A REST API for music tracking integrated with Last.fm, featuring JWT authenticat
 
 
 
+
+
+
 ## Stack
 
 - **Backend:** Node.js + Fastify + TypeScript
