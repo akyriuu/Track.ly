@@ -2,14 +2,7 @@
 
 A REST API for music tracking integrated with Last.fm, featuring JWT authentication and an HTML/CSS/TypeScript frontend.
 
-
 <img width="800" height="423" alt="trackly" src="https://github.com/user-attachments/assets/b5672858-af87-465f-a78b-09afa6c7c495" />
-
-
-
-
-
-
 
 ## Stack
 

@@ -1,4 +1,4 @@
-const API = "http://localhost:2004";
+const API = "";
 const btnLogin = document.getElementById("btn-login");
 const btnRegister = document.getElementById("btn-register");
 const errorMsg = document.getElementById("error-msg");
