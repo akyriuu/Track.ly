@@ -11,7 +11,7 @@ export async function getNowPlaying(username: string) {
   url.searchParams.append("limit", "1");
 
   const response = await fetch(url);
-  const data = await response.json();
+  const data = (await response.json()) as any;
   const track = data.recenttracks.track[0];
 
   return {
@@ -31,7 +31,7 @@ export async function getUserInfo(username: string) {
   url.searchParams.append("format", "json");
 
   const response = await fetch(url);
-  const data = await response.json();
+  const data = (await response.json()) as any;
 
   return {
     username: data.user.name,
@@ -50,7 +50,7 @@ export async function getTopArtists(username: string) {
   url.searchParams.append("limit", "5");
 
   const response = await fetch(url);
-  const data = await response.json();
+  const data = (await response.json()) as any;
 
   return data.topartists.artist.map((artist: any) => ({
     name: artist.name,
@@ -68,7 +68,7 @@ export async function getTopTracks(username: string) {
   url.searchParams.append("limit", "5");
 
   const response = await fetch(url);
-  const data = await response.json();
+  const data = (await response.json()) as any;
 
   return data.toptracks.track.map((track: any) => ({
     name: track.name,

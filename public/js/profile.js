@@ -55,7 +55,7 @@ document.getElementById("btn-save")?.addEventListener("click", async () => {
     }
     successMsg.style.display = "block";
     setTimeout(() => {
-        window.location.href = "dashbaord.html";
+        window.location.href = "dashboard.html";
     }, 1000);
 });
 document.getElementById("btn-logout")?.addEventListener("click", () => {

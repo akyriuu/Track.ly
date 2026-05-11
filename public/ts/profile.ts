@@ -1,4 +1,4 @@
-const API = "http://localhost:2004";
+const API = "";
 
 const token = localStorage.getItem("token");
 if (!token) window.location.href = "index.html";
@@ -76,7 +76,7 @@ document.getElementById("btn-save")?.addEventListener("click", async () => {
 
   successMsg.style.display = "block";
   setTimeout(() => {
-    window.location.href = "dashbaord.html";
+    window.location.href = "dashboard.html";
   }, 1000);
 });
 
