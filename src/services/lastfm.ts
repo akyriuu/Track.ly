@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const baseUrl = "https://ws.audioscrobbler.com/2.0/";
 
 const apiKey = process.env.LASTFM_API_KEY as string;
@@ -78,7 +77,6 @@ export async function getTopTracks(username: string) {
     url: track.url,
   }));
 }
-=======
 const baseUrl = "https://ws.audioscrobbler.com/2.0/";
 
 const apiKey = process.env.LASTFM_API_KEY as string;
@@ -158,4 +156,3 @@ export async function getTopTracks(username: string) {
     url: track.url,
   }));
 }
->>>>>>> 10c3f90 (fix: rebuild dist with correct prisma client)
