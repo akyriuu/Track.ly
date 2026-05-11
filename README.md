@@ -142,7 +142,7 @@ LASTFM_API_KEY=
 ## Roadmap
 
 - [ ] **OAuth Last.fm** — substituir o vínculo manual de username pelo fluxo OAuth oficial do Last.fm, permitindo autenticação segura e acesso à sessão do usuário
-- [ ] **Deploy** — publicar o backend no Railway e configurar URL de callback para o OAuth
+- [ ] **Deploy** — publicar o backend no Railway e configurar URL de callback para o OAuth - 50% progress.
 - [ ] **Discord Rich Presence** — app desktop que exibe a música tocando agora no status do Discord via Last.fm
 - [ ] **Widget embed** — endpoint que retorna SVG/HTML com a música atual, para usar em README do GitHub, sites e Notion
 - [ ] **Histórico de músicas** — endpoint para listar músicas recentes do usuário
